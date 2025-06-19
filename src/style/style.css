@@ -1,0 +1,45 @@
+/* Reset de estilos globales */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* Body */
+body {
+	font-family: 'Jost', sans-serif;
+}
+/* Header */
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 1rem;
+	margin: 10px;
+}
+
+header nav ul {
+	list-style: none;
+	display: flex;
+	gap: 15px;
+}
+
+header nav ul a {
+	color: #000;
+	font-size: 1.5rem;
+	font-weight: 700;
+	text-decoration: none;
+}
+/* Clase container */
+.container {
+	display: flex;
+	flex-flow: column nowrap;
+	padding: 25px;
+	align-items: center;
+	align-content: center;
+}
+.contenedor-opciones {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: red;
+}
